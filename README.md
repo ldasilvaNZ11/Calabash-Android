@@ -21,7 +21,7 @@
 - http://www.oracle.com/technetwork/java/javase/downloads/index.html
 - https://developer.android.com/studio/index.html
    	
-   	#Or if you currently use Android Studio, it is easy to get those files installed for you by##################
+   	#Or if you currently use Android Studio, it is easy to get those files installed for you by ****
 
 
 ###4- Make sure you have Ruby installed into your machine
