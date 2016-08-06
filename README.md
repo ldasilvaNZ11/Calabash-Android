@@ -16,7 +16,10 @@
 	
 ###3- Make sure the latest JDK (java development kit) and Android SDK are installed in your machine
 
-   	#If they are not you can either get them from the following links:#################
+   	#If they are not you can either get them from the following links:
+   	- http://www.oracle.com/technetwork/java/javase/downloads/index.html
+   	- https://developer.android.com/studio/index.html
+   	
    	#Or if you currently use Android Studio, it is easy to get those files installed for you by##################
 
 
