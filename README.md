@@ -93,9 +93,10 @@
 ###11- Make sure you got in hands your app's APK file and move it into calabashautomation folder
 
 
-###12- Go onto my_first.feature file and open it using your text editor tool
+###12- Open my_first.feature file using your text editor tool
 
 	#This files sits under your CalabashAutomation > features 
+        
         #Now you are ready to start making your first Feature, Scenarios and Test steps
 
 
