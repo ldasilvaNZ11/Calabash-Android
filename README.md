@@ -102,7 +102,7 @@
 
 ###13- Last but no least, how do we get Calabash to run our tests for us????
 
-	#Simple open terminal and run the following command: 
+	#Simply open terminal and run the following command: 
 	
 	$ calabash-android run <HereGoesYourAppsApkFile>
 
