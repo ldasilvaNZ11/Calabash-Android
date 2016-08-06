@@ -7,20 +7,20 @@
 
 	#It will make it easier later for you to organize and know where all of your files are located. eg. I've created a folder called 'CalabashAutomation' under Documents
 	
-2- Install a text editor 
+###2- Install a text editor 
 
 	 #I use a text editor called Atom, you can get it from here: 
 	 
 	 https://atom.io/
 	
 	
-3- Make sure the latest JDK (java development kit) and Android SDK are installed in your machine
+###3- Make sure the latest JDK (java development kit) and Android SDK are installed in your machine
 
    	#If they are not you can either get them from the following links:#################
    	#Or if you currently use Android Studio, it is easy to get those files installed for you by##################
 
 
-4- Make sure you have Ruby installed into your machine
+###4- Make sure you have Ruby installed into your machine
 
   	#You need to have Ruby installed. Verify your installation by running in terminal:
   
@@ -29,12 +29,12 @@
   	#it should print "ruby 2.0.0" (or higher). We recommend using a managed version of Ruby like rbenv or rvm.
 
 
-5- Open Android Studio to find out where your library path currently is
+###5- Open Android Studio to find out where your library path currently is
 
    	#library path can be found in android studio >tools>android>SDK Manager
 
 
-6- Do the following actions in the terminal windown
+###6- Do the following actions in the terminal windown
 
 	A) In terminal run the following command: 
 
@@ -49,7 +49,7 @@
    	#do a control 'o', then hit return, then hit control 'x' to exit out file and head back to terminal's intial stage
 	
 		
-7- Installing bundler, which is going to take care of all the gems for you from now on by managing your version of Calabash. Run this command in the terminal: 
+###7- Installing bundler, which is going to take care of all the gems for you from now on by managing your version of Calabash. Run this command in the terminal: 
 
     	$ gem install bundler 
     
@@ -58,12 +58,12 @@
     	$ sudo gem install bundler
 
    
-8- Open your text editor from step 2 and create a file naming it: "GEMFILE" 
+###8- Open your text editor from step 2 and create a file naming it: "GEMFILE" 
 
    	#This file is going to be located in the working directory, more precisely inside your CalabashAutomation folder created during step 1. The Gemfile will contain all your Ruby dependencies.
 
 
-9- Adding contents to your GEMFILE
+###9- Adding contents to your GEMFILE
    
    	#Add the line below to your GEMFILE and save it 
    
@@ -73,7 +73,7 @@
     	$ gem 'cucumber'
 
 
-11- In terminal navigate to the folder 'CalabashAutomation' and run the following command: 
+###10- In terminal navigate to the folder 'CalabashAutomation' and run the following command: 
 
 	$ bundle install
 
@@ -86,16 +86,16 @@
 	$ bundle update.
 	
 	
-12- Make sure you got in hands your app's APK file and move it into calabashautomation folder
+###11- Make sure you got in hands your app's APK file and move it into calabashautomation folder
 
 
-13- Go onto my_first.feature file and open it using your text editor tool
+###12- Go onto my_first.feature file and open it using your text editor tool
 
 	#This files sits under your CalabashAutomation > features 
         #Now you are ready to start making your first Feature, Scenarios and Test steps
 
 
-14- Last but no least, how do we get Calabash to run our tests for us????
+###13- Last but no least, how do we get Calabash to run our tests for us????
 
 	#Simple open terminal and run the following command: 
 	
