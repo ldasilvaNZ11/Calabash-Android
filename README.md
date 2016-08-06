@@ -1,9 +1,9 @@
-# Calabash-Android
+### Calabash-Android
 	Work project, setting up Automation for Android mobile devices using Calabash tool
 
-#Steps on how to set up Calabash tool for Mac (OSX)
+###Steps on how to set up Calabash tool for Mac (OSX)
 
-1- Create a folder in your working documents. 
+###1- Create a folder in your working documents. 
 
 	#It will make it easier later for you to organize and know where all of your files are located. eg. I've created a folder called 'CalabashAutomation' under Documents
 	
@@ -49,7 +49,7 @@
    	#do a control 'o', then hit return, then hit control 'x' to exit out file and head back to terminal's intial stage
 	
 		
-7- Installing bundler, which is going to take care of all the gems for you from now on. Run this command in the terminal: 
+7- Installing bundler, which is going to take care of all the gems for you from now on by managing your version of Calabash. Run this command in the terminal: 
 
     	$ gem install bundler 
     
@@ -72,20 +72,28 @@
     	$ gem 'calabash-android'
     	$ gem 'cucumber'
 
+
 11- In terminal navigate to the folder 'CalabashAutomation' and run the following command: 
 
 	$ bundle install
 
- 	#followed by the command, which is going to create Calabash's file structure:
+ 	#Then run the command below, which is going to create Calabash's file structure:
 
 	$ calabash-android gen 
 	
+	#Remeber to regularly update your Calabash/Cucumber dependencies by running: 
+	
+	$ bundle update.
+	
+	
 12- Make sure you got in hands your app's APK file and move it into calabashautomation folder
+
 
 13- Go onto my_first.feature file and open it using your text editor tool
 
 	#This files sits under your CalabashAutomation > features 
         #Now you are ready to start making your first Feature, Scenarios and Test steps
+
 
 14- Last but no least, how do we get Calabash to run our tests for us????
 
