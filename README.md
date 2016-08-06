@@ -16,64 +16,79 @@ It will make it easier later for you to organize and know where all of your file
 	
 3- Make sure the latest JDK (java development kit) and Android SDK are installed in your machine
 
-   If they are not you can either get them from the following links:#################
-   Or if you currently use Android Studio, it is easy to get those files installed for you by##################
+   	If they are not you can either get them from the following links:#################
+   	Or if you currently use Android Studio, it is easy to get those files installed for you by##################
 
 
 4- Make sure you have Ruby installed into your machine
 
-  #You need to have Ruby installed. Verify your installation by running in terminal:
+  	#You need to have Ruby installed. Verify your installation by running in terminal:
   
-  $ruby -v in a terminal 
+  	$ruby -v in a terminal 
   
-  #it should print "ruby 2.0.0" (or higher). We recommend using a managed version of Ruby like rbenv or rvm.
+  	#it should print "ruby 2.0.0" (or higher). We recommend using a managed version of Ruby like rbenv or rvm.
 
 
 5- Open Android Studio to find out where your library path currently is
 
-   #library path can be found in android studio >tools>android>SDK Manager
+   	#library path can be found in android studio >tools>android>SDK Manager
 
 
 6- Do the following actions in the terminal windown
 
-A) In terminal run the following command: 
+	A) In terminal run the following command: 
 
-   $ nano ~/.bash_profile 
+   	$ nano ~/.bash_profile 
    
-   #it will open the .bash_profile file
+   	#it will open the .bash_profile file
 
-B) Save this command in there: 
+	B) Save this command in there: 
 
-   $ export ANDROID_HOME=/Users/ldasilvanz11/Library/Android/sdk 
+   	$ export ANDROID_HOME=/Users/ldasilvanz11/Library/Android/sdk 
 
-   #do a control 'o', then hit return, then hit control 'x' to exit out file and head back to terminal's intial stage
+   	#do a control 'o', then hit return, then hit control 'x' to exit out file and head back to terminal's intial stage
 	
 		
-7-	Installing bundler, which is going to take care of all the gems for you from now on. Run this command in the terminal: 
+7- Installing bundler, which is going to take care of all the gems for you from now on. Run this command in the terminal: 
 
-    $ gem install bundler 
+    	$ gem install bundler 
     
-    #or in case you have permission issues, then use instead the following command:
+    	#or in case you have permission issues, then use instead the following command:
 
-    $ sudo gem install bundler
+    	$ sudo gem install bundler
 
    
 8- Open your text editor from step 2 and create a file naming it: "GEMFILE" 
 
-   #This file is going to be located in the working directory, more precisely inside your CalabashAutomation folder created during step 1. The Gemfile will contain all your Ruby dependencies.
+   	#This file is going to be located in the working directory, more precisely inside your CalabashAutomation folder created during step 1. The Gemfile will contain all your Ruby dependencies.
+
 
 9- Adding contents to your GEMFILE
    
-   #Add the line below to your GEMFILE and save it 
+   	#Add the line below to your GEMFILE and save it 
    
-   source "https://rubygems.org"
+	 source "https://rubygems.org"
    
-    $ gem 'calabash-android'
-    $ gem 'cucumber'
+    	$ gem 'calabash-android'
+    	$ gem 'cucumber'
 
-11- 
+11- In terminal navigate to the folder 'CalabashAutomation' and run the following command: 
 
-In terminal navigate to the folder 'CalabashAutomation' and run the following command: bundle install
-run command calabash-android gen to create calabash file structure
-move app.apk file into calabashautomation folder
-calabash-android run <apk>
+	$ bundle install
+
+ 	#followed by the command, which is going to create Calabash's file structure:
+
+	$ calabash-android gen 
+	
+12- Make sure you got in hands your app's APK file and move it into calabashautomation folder
+
+13- Go onto my_first.feature file and open it using your text editor tool
+
+	#This files sits under your CalabashAutomation > features 
+        #Now you are ready to start making your first Feature, Scenarios and Test steps
+
+14- Last but no least, how do we get Calabash to run our tests for us????
+
+	#Simple open terminal and run the following command: 
+	
+	$ calabash-android run <HereGoesYourAppsApkFile>
