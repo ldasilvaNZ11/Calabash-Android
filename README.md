@@ -100,3 +100,8 @@
 	#Simple open terminal and run the following command: 
 	
 	$ calabash-android run <HereGoesYourAppsApkFile>
+
+###Useful Resources
+
+- https://github.com/calabash/calabash-android/blob/master/documentation/installation.md
+- https://github.com/calabash/calabash-android
