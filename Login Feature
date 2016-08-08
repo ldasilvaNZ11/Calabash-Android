@@ -1,0 +1,171 @@
+###Gherkin Steps for Login Feature
+
+Feature: Login feature
+Scenario: As a valid user I can log into my app via Notifications screen
+   When I see "Browse categories"
+   And I press "Navigate up"
+   And I press "Notifications"
+   And I press "Log in"
+   Then I enter text "My_email" into field with id "Email_id"
+   Then I enter text "My_password" into field with id "Password_id"
+   Then I press "Log in"
+   Then I should see "Notifications"
+   And I press "Navigate up"
+   And I press "My account"
+   Then I scroll down
+   And I press "Log out"
+   And I press "Confirm"
+
+Scenario: As a valid user I can log into my app via Watchlist screen
+   When I see "Browse categories"
+   And I press "Navigate up"
+   And I press "Watchlist"
+   And I press "Log in"
+   Then I enter text "My_email" into field with id "Email_id"
+   Then I enter text "My_password" into field with id "Password_id"
+   Then I press "Log in"
+   Then I should see "Watchlist"
+   And I press "Navigate up"
+   And I press "My account"
+   Then I scroll down
+   And I press "Log out"
+   And I press "Confirm"
+
+Scenario: As a valid user I can log into my app via Shopping cart screen
+   When I see "Browse categories"
+   And I press "Navigate up"
+   And I press "Shopping cart"
+   And I press "Log in"
+ Then I enter text "My_email" into field with id "Email_id"
+   Then I enter text "My_password" into field with id "Password_id"
+   Then I press "Log in"
+   Then I should see "Shopping cart"
+   And I press "Navigate up"
+   And I press "My account"
+   Then I scroll down
+   And I press "Log out"
+   And I press "Confirm"
+
+Scenario: As a valid user I can log into my app via Favourites screen
+   When I see "Browse categories"
+   And I press "Navigate up"
+   And I press "Favourites"
+   And I press "Log in"
+  Then I enter text "My_email" into field with id "Email_id"
+   Then I enter text "My_password" into field with id "Password_id"
+   Then I press "Log in"
+   Then I should see "Favourites"
+   And I press "Navigate up"
+   And I press "My account"
+   Then I scroll down
+   And I press "Log out"
+   And I press "Confirm"
+
+Scenario: As a valid user I can log into my app via Won screen
+   When I see "Browse categories"
+   And I press "Navigate up"
+   And I press "Won"
+   And I press "Log in"
+   Then I enter text "My_email" into field with id "Email_id"
+   Then I enter text "My_password" into field with id "Password_id"
+   Then I press "Log in"
+   Then I should see "Won"
+   And I press "Navigate up"
+   And I press "My account"
+   Then I scroll down
+   And I press "Log out"
+   And I press "Confirm"
+
+Scenario: As a valid user I can log into my app via Lost screen
+   When I see "Browse categories"
+   And I press "Navigate up"
+   And I press "Lost"
+   And I press "Log in"
+   Then I enter text "My_email" into field with id "Email_id"
+   Then I enter text "My_password" into field with id "Password_id"
+   Then I press "Log in"
+   Then I should see "Lost"
+   And I press "Navigate up"
+   And I press "My account"
+   Then I scroll down
+   And I press "Log out"
+   And I press "Confirm"
+
+Scenario: As a valid user I can log into my app via Offers screen
+   When I see "Browse categories"
+   And I press "Navigate up"
+   And I press "Offers"
+   And I press "Log in"
+   Then I enter text "My_email" into field with id "Email_id"
+   Then I enter text "My_password" into field with id "Password_id"
+   Then I press "Log in"
+   Then I should see "Offers"
+   And I press "Navigate up"
+   And I press "My account"
+   Then I scroll down
+   And I press "Log out"
+   And I press "Confirm"
+
+Scenario: As a valid user I can log into my app via List an item screen
+   When I see "Browse categories"
+   And I press "Navigate up"
+   Then I scroll down
+   And I press "List an item"
+   And I press "Log in"
+   Then I enter text "My_email" into field with id "Email_id"
+   Then I enter text "My_password" into field with id "Password_id"
+   Then I press "Log in"
+   Then I should see "List an item"
+   And I press "Navigate up"
+   And I press "My account"
+   Then I scroll down
+   And I press "Log out"
+   And I press "Confirm"
+
+Scenario: As a valid user I can log into my app via Items I'm selling screen
+   When I see "Browse categories"
+   And I press "Navigate up"
+   Then I scroll down
+   And I press "Items I'm selling"
+   And I press "Log in"
+   Then I enter text "My_email" into field with id "Email_id"
+   Then I enter text "My_password" into field with id "Password_id"
+   Then I press "Log in"
+   Then I should see "Items I'm selling"
+   And I press "Navigate up"
+   And I press "My account"
+   Then I scroll down
+   And I press "Log out"
+   And I press "Confirm"
+
+Scenario: As a valid user I can log into my app via Sold screen
+   When I see "Browse categories"
+   And I press "Navigate up"
+   Then I scroll down
+   And I press "Sold"
+   And I press "Log in"
+   Then I enter text "My_email" into field with id "Email_id"
+   Then I enter text "My_password" into field with id "Password_id"
+   Then I press "Log in"
+   Then I should see "Sold"
+   And I press "Navigate up"
+   And I press "My account"
+   Then I scroll down
+   And I press "Log out"
+   And I press "Confirm"
+
+Scenario: As a valid user I can log into my app via Unsold screen
+   When I see "Browse categories"
+   And I press "Navigate up"
+   Then I scroll down
+   And I press "Unsold"
+   And I press "Log in"
+   Then I enter text "My_email" into field with id "Email_id"
+   Then I enter text "My_password" into field with id "Password_id"
+   Then I press "Log in"
+   Then I should see "Unsold"
+   And I press "Navigate up"
+   And I press "My account"
+   Then I scroll down
+   And I press "Log out"
+   And I press "Confirm"
